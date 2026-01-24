@@ -107,7 +107,25 @@ div.imp{
     padding: 20px;
 }
 div.copyright{
-  padding: 2px 2px 2px 2px;
+  padding: 18px 18px 18px 18px;
     
 }
-
+.vr{
+    height: 110px;
+    width: 1px;
+    border: 1px solid white
+}
+.con{
+    display: flex;
+}
+.icons{
+    height: 94px;
+    padding-top: 9px;
+    padding-left: 9px;
+}
+.con2{
+    display: flex;
+}
+.infopic{
+    padding: 8px 8px 8px 8px;
+}
