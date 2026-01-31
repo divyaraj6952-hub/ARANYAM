@@ -1,0 +1,288 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .icon{
+    height: 65px;
+    width: auto;
+ }
+nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+ ul {
+    display: flex;
+    gap: 20px;
+   width: 100%;
+    background-color: #b6eccb;
+      background-color:#b6eccb ;
+ }
+ li{
+    list-style: none;
+margin-top: 20px;
+    margin-left: 10px;
+font-size: 20px;
+
+ }
+nav ul li  a:link{
+    color:#FACC15 ;
+    text-decoration: none;
+ }
+ nav ul li a:hover{
+    color:#EAB308 ;
+    text-decoration: none;
+  }
+main{
+    background-color:#F9FAF7 ;
+    min-height: 100vh;
+
+}
+.ACC{
+    margin-left: auto;
+    transform: translateX(-100px);
+}
+li.searchbar{
+    display: flex;
+   align-items: center;
+   background:#b6eccb ;
+   padding: 4px 80px  ;
+position: relative;
+top: -10px;
+}
+.searchbar input{
+    border: none;
+    outline: none;
+    padding: 6px 80px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.searchbar button{
+    border: none;
+    background: transparent;
+    font-size: 26px;
+    cursor: pointer;
+}
+a:visited{
+  color:#FACC15 ;
+    text-decoration: none;  
+}
+nav{
+    position: sticky;
+     top: 0;
+     z-index: 1000;
+  
+}
+body {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    min-height: 100vh;
+    background-color:#F9FAF7 ;
+}
+.notify{
+    height: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 12px;
+    cursor: pointer;
+}
+.notify:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease;
+}
+footer{
+    background-color: #00af1a;
+    height: 200px;
+    width: 100%;
+    color: #F9FAF7;
+    font-weight: 100;
+    font-family: serif;
+    font-size: 20px;
+}
+div.imp{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+div.copyright{
+  padding: 18px 18px 18px 18px;
+    
+}
+.vr{
+    height: 110px;
+    width: 1px;
+    border: 1px solid white
+}
+.con{
+    display: flex;
+}
+.icons{
+    height: 94px;
+    padding-top: 9px;
+    padding-left: 9px;
+}
+.con2{
+    display: flex;
+}
+.infopic{
+    padding: 8px 8px 8px 8px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .icon{
+    height: 65px;
+    width: auto;
+ }
+nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+ ul {
+    display: flex;
+    gap: 20px;
+   width: 100%;
+    background-color: #b6eccb;
+      background-color:#b6eccb ;
+ }
+ li{
+    list-style: none;
+margin-top: 20px;
+    margin-left: 10px;
+font-size: 20px;
+
+ }
+nav ul li  a:link{
+    color:#FACC15 ;
+    text-decoration: none;
+ }
+ nav ul li a:hover{
+    color:#EAB308 ;
+    text-decoration: none;
+  }
+main{
+    background-color:#F9FAF7 ;
+    min-height: 100vh;
+
+}
+.ACC{
+    margin-left: auto;
+    transform: translateX(-100px);
+}
+li.searchbar{
+    display: flex;
+   align-items: center;
+   background:#b6eccb ;
+   padding: 4px 80px  ;
+position: relative;
+top: -10px;
+}
+.searchbar input{
+    border: none;
+    outline: none;
+    padding: 6px 80px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.searchbar button{
+    border: none;
+    background: transparent;
+    font-size: 26px;
+    cursor: pointer;
+}
+a:visited{
+  color:#FACC15 ;
+    text-decoration: none;  
+}
+nav{
+    position: sticky;
+     top: 0;
+     z-index: 1000;
+  
+}
+body {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    min-height: 100vh;
+    background-color:#F9FAF7 ;
+}
+.notify{
+    height: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 12px;
+    cursor: pointer;
+}
+.notify:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease;
+}
+footer{
+    background-color: #00af1a;
+    height: 200px;
+    width: 100%;
+    color: #F9FAF7;
+    font-weight: 100;
+    font-family: serif;
+    font-size: 20px;
+}
+div.imp{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+div.copyright{
+  padding: 2px 2px 2px 2px;
+    
+}
+.tabs1 {
+    margin: 30px 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+.product-card {
+    height: 400px;
+    width: 260px;
+    padding: 15px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.product-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.product-info {
+    margin-top: 10px;
+}
+
+.price {
+    font-weight: bold;
+    color: #2e7d32; /* ARANYAM green */
+}
+.shop :hover{
+transform: scale(1.1);
+transition: 0.3 ease;
+}
+
